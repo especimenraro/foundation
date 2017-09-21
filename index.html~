@@ -9,10 +9,10 @@
     <link rel="stylesheet" href="css/app.css">
   </head>
   
-  <body>
+  <body class="contenedor-principal">
  
    <header>
-  <div class="row" id="tope">
+  <div class="row cabecera" id="tope">
    	<div class="column large-6">
 			<h1 class="titulo-cabecera">GASTROCHILE</h1>
 			<h5 class="subtitulo-cabecera"><em>La Comida del Chile Profundo</em></h5>   	
@@ -20,15 +20,15 @@
  	</div>
   </header>
    	
-<section>
+<section class="contenedor">
 <div class="row">
 
 <!PANEL>
-<div class="column large-4">
+<div class="column large-4 panel">
 
 <!PANEL-BUSCADOR>
 <form>
-<div class="row">
+<div class="row buscador">
 	<div class="column">
     			<fieldset>
 				<label>					
@@ -40,7 +40,7 @@
 </form>
 
 <!PANEL-NAVEGADOR>
-<div class="row">
+<div class="row navegador">
 <div class="column">
 <ul class="vertical menu">
 <li ><a href="">Inicio</a></li>
@@ -51,38 +51,38 @@
 </div>
 
 <!PANEL-FAVORITOS>
-<div class="row">
+<div class="row favoritos">
 
 <div class="row">
-<div class="column"><p>FAVORITOS:</p></div>
+<div class="column titulo-favoritos"><p>FAVORITOS:</p></div>
 </div>
 
 <div class="row">
-<div class="column large-4"><img src="imagenes/porotos.jpg" alt="porotos con rienda"></div>
-<div class="column large-4"><img src="imagenes/catutos.jpg" alt="catutos"></div>
-<div class="column large-4"><img src="imagenes/charquican.jpg" alt="charquican"></div>
+<div class="column large-4 imagen-favoritos"><img src="imagenes/porotos.jpg" alt="porotos con rienda"></div>
+<div class="column large-4 imagen-favoritos"><img src="imagenes/catutos.jpg" alt="catutos"></div>
+<div class="column large-4 imagen-favoritos"><img src="imagenes/charquican.jpg" alt="charquican"></div>
 </div>
 
 <div class="row">
-<div class="column large-4"><img src="imagenes/diweñe.jpg" alt="diweñes"></div>
-<div class="column large-4"><img src="imagenes/pancutra.jpg" alt="pancutras"></div>
-<div class="column large-4"><img src="imagenes/piñones.jpg" alt="piñones"></div>
+<div class="column large-4 imagen-favoritos"><img src="imagenes/diweñe.jpg" alt="diweñes"></div>
+<div class="column large-4 imagen-favoritos"><img src="imagenes/pancutra.jpg" alt="pancutras"></div>
+<div class="column large-4 imagen-favoritos"><img src="imagenes/piñones.jpg" alt="piñones"></div>
 </div>
 
 </div>
 
 <!PANEL-HISTORIAL>
+<div class="row historial">
 <div class="row">
-<div class="row">
-<div class="column"><p>HISTORIAL</p></div>
+<div class="column titulo-historial"><p>HISTORIAL</p></div>
 </div>
 <div class="row">
 <ul class="vertical menu">
 
-<li><a href="#entrada1" >Porotos con Rienda</a></li>
-<li><a href="#entrada2" >Pancutras</a></li>
-<li><a href="#entrada3" >Piñones</a></li>
-<li><a href="#entrada4" >El Charquican</a></li>
+<li class="item-historial"><a href="#entrada1" >Porotos con Rienda</a></li>
+<li class="item-historial"><a href="#entrada2" >Pancutras</a></li>
+<li class="item-historial"><a href="#entrada3" >Piñones</a></li>
+<li class="item-historial"><a href="#entrada4" >El Charquican</a></li>
 
 </ul>
 
@@ -94,84 +94,84 @@
 
 
 <!ENTRADAS-BLOG>
-<div class="column large-8">
+<div class="column large-8 contenidos">
 
 <!ENTRADAS-BLOG1>
 <!ENTRADAS-BLOG1-IMAGEN>
-<div class="row" id="entrada1">
-<div class="column"><p>POROTOS CON RIENDA</p></div>
-<div class="column">
+<div class="row entrada-blog" id="entrada1">
+<div class="column titulo-entrada-blog"><p>POROTOS CON RIENDA</p></div>
+<div class="column imagen-entrada-blog">
 <img src="imagenes/porotos.jpg" alt="imagen porotos con rienda">
 </div>
 </div>
 <!ENTRADAS-BLOG1-TEXTO>
-<div class="row">
+<div class="row texto-entrada-blog">
 <div class="column">
 <p>Porotos con riendas es un plato de fondo <em>tradicional de la cocina chilena</em>.​ Su nombre muestra una metáfora campesina de las tiras de cuero de chancho, que lleva tradicionalmente el plato, asociados a riendas. La variante de porotos con <em> tallarines </em> es la adaptación del plato de campo al paladar de la ciudad.</p>
 </div>
 </div>
 
 <!ENTRADAS-BLOG1-COMENTARIOS>
-<div class="row">
+<div class="row comentarios">
 	<div class="column"><p>Comentarios</p></div>
-	<div class="row">
+	<div class="row comentario-entrada">
 		<div class="column large-1"><img src="iconos/001-chica-1.png" alt="imagen usuario"></div>
 		<div class="column large-11"><p>exquisito plato de altísimas calorías</p></div>
 	</div>	
-	<div class="row">
+	<div class="row comentario-historico">
 		<div class="column large-1 large-offset-1"><img src="iconos/004-chico.png" alt="imagen usuario"></div>
 		<div class="column large-10"><p>Me encantó, si estás con hambre, esta es la solución a tu problema</p></div>
 	</div>
-	<div class="row">
+	<div class="row comentario-historico">
 		<div class="column large-1 large-offset-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
 		<div class="column large-10"><p>Si, que bien que ahora no usen cuero de chancho</p></div>
 	</div>
-	<div class="column"><a href="#tope" >Arriba</a></div>
+	<div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div>
 </div>
 
 <!ENTRADAS-BLOG2>
 <!ENTRADAS-BLOG2-IMAGEN>
-<div class="row" id="entrada2">
-<div class="column"><p>PANCUTRAS</p></div>
-<div class="column">
+<div class="row entrada-blog" id="entrada2">
+<div class="column titulo-entrada-blog"><p>PANCUTRAS</p></div>
+<div class="column imagen-entrada-blog">
 <img src="imagenes/pancutra.jpg" alt="imagen plato de pancutras">
 </div>
 </div>
 <!ENTRADAS-BLOG2-TEXTO>
-<div class="row">
+<div class="row texto-entrada-blog">
 <div class="column">
 <p>La pantruca, pancutra o pancucha es un alimento <em> típico de Chile y de la región patagónica de Argentina </em> , preparado a base de harina de trigo. En sí, esta preparación es una masa elaborada con agua, harina y un poco de aceite, que se amasa como si se tratase de cualquier pasta y se corta en cortes irregulares para luego cocinar en caldo de verduras o de carne y se sirve junto con éste.</p>
 </div>
 </div>
 
 <!ENTRADAS-BLOG2-COMENTARIOS>
-<div class="row">
-	<div class="row">
+<div class="row comentarios">
+	<div class="row comentario-entrada">
 		<div class="column large-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
 		<div class="column large-11"><p>Si yo lo comí en Argentina también, pero se hace distinto</p></div>
 	</div>	
-	<div class="row">
+	<div class="row comentario-historico">
 		<div class="column large-1 large-offset-1"><img src="iconos/004-chico.png" alt="imagen usuario"></div>
 		<div class="column large-10"><p>Mi abuela hacía, ahora ya casi no la como</p></div>
 	</div>
-	<div class="row">
+	<div class="row comentario-historico">
 		<div class="column large-1 large-offset-1"><img src="iconos/003-chica.png" alt="imagen usuario"></div>
 		<div class="column large-10"><p>Con un buen aliño queda muy sabrosas y es muy fácil de hacer</p></div>
 	</div>
-	<div class="column"><a href="#tope" >Arriba</a></div>
+	<div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div>
 </div>
 
 
 <!ENTRADAS-BLOG3>
 <!ENTRADAS-BLOG3-IMAGEN>
-<div class="row" id="entrada3">
-<div class="column"><p>PIÑONES</p></div>
-<div class="column">
+<div class="row entrada-blog" id="entrada3">
+<div class="column titulo-entrada-blog"><p>PIÑONES</p></div>
+<div class="column imagen-entrada-blog">
 <img src="imagenes/piñones.jpg" alt="imagen piñones">
 </div>
 </div>
 <!ENTRADAS-BLOG3-TEXTO>
-<div class="row">
+<div class="row texto-entrada-blog">
 <div class="column">
 <p>Antiguamente, los alimentos  básicos, comunes a todos los grupos mapuche, eran: papa, maíz, quínwa y poroto, que se utilizaban para preparar guisos, sopas, catutos o mültrün, y muday (bebida refrescante hecha originalmente con choclo, piñones* o quinwa fermentados). Esos platos a veces podían estar acompañados con carne de guanacos o aves, pescados, mariscos, producto de la caza, recoleccion o crianza.
 Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñones* (guillio), como alimento de base, para hacer catuto*, mote, y muday. De hecho, los mapuches se dedicaban a la recolección de muchos frutos silvestres como avellanas*, maqui, murtilla, varias bayas y hongos (changle y digueñe), también nalcas y con sus largos tallos preparaban ensaladas.
@@ -180,52 +180,52 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
 </div>
 
 <!ENTRADAS-BLOG3-COMENTARIOS>
-<div class="row">
-	<div class="row">
+<div class="row comentarios">
+	<div class="row comentario-entrada">
 		<div class="column large-1"><img src="iconos/001-chica-1.png" alt="imagen usuario"></div>
 		<div class="column large-11"><p>No sabía que era el fruto de los Pehuenche</p></div>
 	</div>	
-	<div class="row">
+	<div class="row comentario-historico">
 		<div class="column large-1 large-offset-1"><img src="iconos/003-chica.png" alt="imagen usuario"></div>
 		<div class="column large-10"><p>Aqui se come bastante, se deben cocer por harto tiempo</p></div>
 	</div>
-	<div class="row">
+	<div class="row comentario-historico">
 		<div class="column large-1 large-offset-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
 		<div class="column large-10"><p>A ver si como de estos cuando esté en el Sur</p></div>
 	</div>
-	<div class="column"><a href="#tope" >Arriba</a></div>
+	<div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div>
 </div>
 
 <!ENTRADAS-BLOG4>
 <!ENTRADAS-BLOG4-IMAGEN>
-<div class="row" id="entrada4">
-<div class="column"><p>EL CHARQUICAN</p></div>
-<div class="column">
+<div class="row entrada-blog" id="entrada4">
+<div class="column titulo-entrada-blog"><p>EL CHARQUICAN</p></div>
+<div class="column imagen-entrada-blog">
 <img src="imagenes/charquican.jpg" alt="imagen plato de charquican">
 </div>
 </div>
 <!ENTRADAS-BLOG4-TEXTO>
-<div class="row">
+<div class="row texto-entrada-blog">
 <div class="column">
 <p>La cocina mapuche, (grupo étnico del sur de chile) está llena de riquezas. Tiene platos sorprendentes, nutritivos y sabrosos. Dentro de esos platos, está el charquicán, ideal para los tiempos de frio. Su nombre viene del Charqui, la carne deshidratada que se cubre con sal y con la cual se prepara el charquicán. Algunas referencias mencionan que el origen de la palabra residiría en una mezcla entre dos lenguas: el quechua y el mapudungun. En esos idiomas, “charquicán” significaría “carne seca asada”. Antes se usaba Charqui de guanaco, un especie de lama pero hoy en día, se prefiere prepararlo con carne fresca de vacuno. El charquicán lleva también papas, zapallo, choclo, elote y otros ingredientes. Lo bueno del plato es que se puede modificar según el gusto de cada quien: se puede agregar verduras o prepararlo con pollo por ejemplo.</p>
 </div>
 </div>
 
 <!ENTRADAS-BLOG4-COMENTARIOS>
-<div class="row">
-	<div class="row">
+<div class="row comentarios">
+	<div class="row comentario-entrada">
 		<div class="column large-1"><img src="iconos/001-chica-1.png" alt="imagen usuario"></div>
-		<div class="column large-11"><p>exquisito plato de altísimas calorías</p></div>
+		<div class="column large-11"><p>Rico, nunca lo había probado</p></div>
 	</div>	
-	<div class="row">
+	<div class="row comentario-historico">
 		<div class="column large-1 large-offset-1"><img src="iconos/004-chico.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>Me encantó, si estás con hambre, esta es la solución a tu problema</p></div>
+		<div class="column large-10"><p>que lindos recuerdos</p></div>
 	</div>
-	<div class="row">
+	<div class="row comentario-historico">
 		<div class="column large-1 large-offset-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>Si, que bien que ahora no usen cuero de chancho</p></div>
+		<div class="column large-10"><p>Me parece bien que se rescate nuestro patrimonio culinario</p></div>
 	</div>
-	<div class="column align-right"><a href="#tope" >Arriba</a></div>
+	<div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div>
 </div>
 
 </div>
