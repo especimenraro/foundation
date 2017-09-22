@@ -61,7 +61,7 @@
 <div class="row favoritos">
 
 <div class="row">
-<div class="column titulo-favoritos"><p>FAVORITOS:</p></div>
+<div class="column titulo-favoritos"><p><span><i class="fi-star"></i>FAVORITOS:</p></div>
 </div>
 
 <div class="row">
@@ -81,7 +81,7 @@
 <!PANEL-HISTORIAL>
 <div class="row historial">
 <div class="row">
-<div class="column titulo-historial"><p>HISTORIAL</p></div>
+<div class="column titulo-historial"><p><span><i class="fi-bookmark"></i> HISTORIAL</p></div>
 </div>
 <div class="row">
 <ul class="vertical menu">
@@ -150,8 +150,8 @@
 		<div class="column large-1"><img class="imagen-usuario" src="iconos/004-chico.png" alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Robertito</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Robertito</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>
 		<div class="row">
 		<div class="column"><p>Me encantó, si estás con hambre, esta es la solución a tu problema</p></div>		
@@ -163,8 +163,8 @@
 		<div class="column large-1"><img  class="imagen-usuario" src="iconos/002-hombre.png" alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Lorenzo</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Lorenzo</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>
 		<div class="row">
 		<div class="column">	<p>Si, que bien que ahora no usen cuero de chancho</p>		</div>		
@@ -212,8 +212,8 @@
 		<div class="column large-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Lorenzo</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Lorenzo</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>		
 		<div class="row">
 		<div class="column"><p>Si yo lo comí en Argentina también, pero se hace distinto</p></div>		
@@ -225,8 +225,8 @@
 		<div class="column large-1"><img class="imagen-usuario" src= "iconos/004-chico.png" alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Robertito</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Robertito</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>
 		<div class="row">
 		<div class="column"><p>Mi abuela hacía, ahora ya casi no la como</p></div>		
@@ -238,8 +238,8 @@
 		<div class="column large-1"><img  class="imagen-usuario" src= "iconos/003-chica.png"  alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Andrea</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Andrea</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>
 		<div class="row">
 		<div class="column">	<p>Con un buen aliño queda muy sabrosas y es muy fácil de hacer</p>		</div>		
@@ -290,8 +290,8 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
  alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Andrea</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Andrea</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>		
 		<div class="row">
 		<div class="column"><p>No sabía que era el fruto de los Pehuenche</p></div>		
@@ -303,8 +303,8 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
 		<div class="column large-1"><img class="imagen-usuario" src="iconos/003-chica.png" alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Luz</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Luz</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>
 		<div class="row">
 		<div class="column"><p>Aqui se come bastante, se deben cocer por harto tiempo</p></div>		
@@ -316,8 +316,8 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
 		<div class="column large-1"><img  class="imagen-usuario" src="iconos/002-hombre.png"  alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Lorenzo</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Lorenzo</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>
 		<div class="row">
 		<div class="column">	<p>A ver si como de estos cuando esté en el Sur</p>		</div>		
@@ -364,8 +364,8 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
 		<div class="column large-1"><img src="iconos/001-chica-1.png"  alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Andrea</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Andrea</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>		
 		<div class="row">
 		<div class="column"><p>Rico, nunca lo había probado</p></div>		
@@ -377,8 +377,8 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
 		<div class="column large-1"><img class="imagen-usuario" src="iconos/004-chico.png" alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Robertito</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Robertito</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>
 		<div class="row">
 		<div class="column"><p>que lindos recuerdos</p></div>		
@@ -390,8 +390,8 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
 		<div class="column large-1"><img  class="imagen-usuario" src="iconos/002-hombre.png"   alt="imagen usuario"></div>
 		<div class="column large-11">
 		<div class="row">
-		<div class="column large-1"><p class="username">Lorenzo</p></div>
-		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		<div class="column large-1 medium-1 small-2"><p class="username">Lorenzo</p></div>
+		<div class="column large-11 medium-11 small-10"><p class="fecha">10-09-2017</p></div>		
 		</div>
 		<div class="row">
 		<div class="column">	<p>Me parece bien que se rescate nuestro patrimonio culinario</p>		</div>		
