@@ -15,7 +15,7 @@ background-color:rgba(255,204,204,0.8);
 .titulo-cabecera {
 text-align: right;
 font-family: courier;
-font-size: 3em;
+
 }
 
 .subtitulo-cabecera {
@@ -58,7 +58,10 @@ border-color: rgba(0,0,0,0.2);
 padding: 5px 5px 5px 5px;
 
 }
+.imagen-favoritos {
+width: 100%;
 
+}
 .historial {
 border-style: solid;
 border-width: 1px;
@@ -104,9 +107,6 @@ border-color: rgba(0,0,0,0.2);
 margin: 3px 3px 3px 3px;
 }
 
-.imagen-usuario {
-width: 100%;
-}
 
 .username {
 font-size: 0.7em;
