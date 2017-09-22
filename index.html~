@@ -6,46 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog de Gastronomia Chilena</title>
     <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" />
     <link rel="stylesheet" href="css/app.css">
   </head>
   
   <body class="contenedor-principal">
- 
+
    <header>
   <div class="row cabecera" id="tope">
-   	<div class="column large-6">
-			<h1 class="titulo-cabecera">GASTROCHILE</h1>
-			<h5 class="subtitulo-cabecera"><em>La Comida del Chile Profundo</em></h5>   	
+   	<div class="column large-4">
+			<p class="titulo-cabecera">GASTROCHILE</p>
+			<p class="subtitulo-cabecera"><em>La Comida del Chile Profundo</em></p>   	
    	</div>				
  	</div>
   </header>
    	
-<section class="contenedor">
-<div class="row">
+<section >
+<div class="row contenedor">
 
 <!PANEL>
 <div class="column large-4 panel">
 
 <!PANEL-BUSCADOR>
+
 <form>
 <div class="row buscador">
 	<div class="column">
     			<fieldset>
-				<label>					
-					<input type="text" aria-describedby="busca" placeholder="Buscar" />
-				</label>
+    			<label>Buscador
+    			<div class="input-group">
+					<span class="input-group-label"><i class="fi-magnifying-glass"></i></span>				
+					<input class="input-group-field" type="text" aria-describedby="busca" placeholder="Buscar" />
+					</div>
+					</label>
+					</fieldset>
 				<p class="help-text" id="busca">Buscar Entradas anteriores</p>
+				
 	</div>
 </div>
 </form>
 
 <!PANEL-NAVEGADOR>
 <div class="row navegador">
-<div class="column">
+<div class="columns large-4">
 <ul class="vertical menu">
-<li ><a href="">Inicio</a></li>
-<li><a  href="">Recetas</a></li>
-<li><a href="">Contacto</a></li>
+<li class="active"><a >Inicio</a></li>
+<li ><a >Recetas</a></li>
+<li><a >Contacto</a></li>
 </ul>
 </div>
 </div>
@@ -58,15 +65,15 @@
 </div>
 
 <div class="row">
-<div class="column large-4 imagen-favoritos"><img src="imagenes/porotos.jpg" alt="porotos con rienda"></div>
-<div class="column large-4 imagen-favoritos"><img src="imagenes/catutos.jpg" alt="catutos"></div>
-<div class="column large-4 imagen-favoritos"><img src="imagenes/charquican.jpg" alt="charquican"></div>
+<div class="column large-4 imagen-favoritos"><img class="thumbnail" src="imagenes/porotos.jpg" alt="porotos con rienda"></div>
+<div class="column large-4 imagen-favoritos"><img class="thumbnail" src="imagenes/catutos.jpg" alt="catutos"></div>
+<div class="column large-4 imagen-favoritos"><img class="thumbnail" src="imagenes/charquican.jpg" alt="charquican"></div>
 </div>
 
 <div class="row">
-<div class="column large-4 imagen-favoritos"><img src="imagenes/diweñe.jpg" alt="diweñes"></div>
-<div class="column large-4 imagen-favoritos"><img src="imagenes/pancutra.jpg" alt="pancutras"></div>
-<div class="column large-4 imagen-favoritos"><img src="imagenes/piñones.jpg" alt="piñones"></div>
+<div class="column large-4 imagen-favoritos"><img class="thumbnail" src="imagenes/diweñe.jpg" alt="diweñes"></div>
+<div class="column large-4 imagen-favoritos"><img class="thumbnail" src="imagenes/pancutra.jpg" alt="pancutras"></div>
+<div class="column large-4 imagen-favoritos"><img class="thumbnail" src="imagenes/piñones.jpg" alt="piñones"></div>
 </div>
 
 </div>
@@ -97,44 +104,87 @@
 <div class="column large-8 contenidos">
 
 <!ENTRADAS-BLOG1>
+
 <!ENTRADAS-BLOG1-IMAGEN>
-<div class="row entrada-blog" id="entrada1">
-<div class="column titulo-entrada-blog"><p>POROTOS CON RIENDA</p></div>
-<div class="column imagen-entrada-blog">
-<img src="imagenes/porotos.jpg" alt="imagen porotos con rienda">
+<div class="row" id="entrada1">
+<div class="column titulo-entrada-blog"><h3>POROTOS CON RIENDA</h3><h6><em>Septiembre 2017</em></h6></div>
+<div class="column">
+<img class="imagen-entrada-blog thumbnail" src="imagenes/porotos.jpg" alt="imagen porotos con rienda">
 </div>
 </div>
 <!ENTRADAS-BLOG1-TEXTO>
-<div class="row texto-entrada-blog">
+<div class="row ">
 <div class="column">
-<p>Porotos con riendas es un plato de fondo <em>tradicional de la cocina chilena</em>.​ Su nombre muestra una metáfora campesina de las tiras de cuero de chancho, que lleva tradicionalmente el plato, asociados a riendas. La variante de porotos con <em> tallarines </em> es la adaptación del plato de campo al paladar de la ciudad.</p>
+<p class="texto-entrada-blog">Porotos con riendas es un plato de fondo <em>tradicional de la cocina chilena</em>.​ Su nombre muestra una metáfora campesina de las tiras de cuero de chancho, que lleva tradicionalmente el plato, asociados a riendas. La variante de porotos con <em> tallarines </em> es la adaptación del plato de campo al paladar de la ciudad.</p>
 </div>
 </div>
 
 <!ENTRADAS-BLOG1-COMENTARIOS>
 <div class="row comentarios">
-	<div class="column"><p>Comentarios</p></div>
-	<div class="row comentario-entrada">
-		<div class="column large-1"><img src="iconos/001-chica-1.png" alt="imagen usuario"></div>
-		<div class="column large-11"><p>exquisito plato de altísimas calorías</p></div>
+<div class="column">
+	<div class="row "><div class="column"><p>Comentarios</p></div></div>
+	
+	<div class="row ">
+		<div class="column large-11">
+		<fieldset>    			
+    				<input type="text" placeholder="Escribe un comentario publico" />
+		</fieldset>
+		</div>
+		<div class="column large-1"><a href="#" class="primary tiny button" >Enviar</a></div>
 	</div>	
+	
 	<div class="row comentario-historico">
-		<div class="column large-1 large-offset-1"><img src="iconos/004-chico.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>Me encantó, si estás con hambre, esta es la solución a tu problema</p></div>
+		<div class="column large-1"><img src="iconos/001-chica-1.png" alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Andrea</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>		
+		<div class="row">
+		<div class="column"><p>lindo sitio</p></div>		
+		</div>
+		</div>
+	</div>
+	
+	<div class="row comentario-historico">
+		<div class="column large-1"><img class="imagen-usuario" src="iconos/004-chico.png" alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Robertito</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>
+		<div class="row">
+		<div class="column"><p>Me encantó, si estás con hambre, esta es la solución a tu problema</p></div>		
+		</div>
+		
+		</div>
 	</div>
 	<div class="row comentario-historico">
-		<div class="column large-1 large-offset-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>Si, que bien que ahora no usen cuero de chancho</p></div>
-	</div>
-	<div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div>
+		<div class="column large-1"><img  class="imagen-usuario" src="iconos/002-hombre.png" alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Lorenzo</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>
+		<div class="row">
+		<div class="column">	<p>Si, que bien que ahora no usen cuero de chancho</p>		</div>		
+		</div>
+		
+		</div>
+	</div>	
+	
+	<div class="row"><div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div></div>
+	
 </div>
+</div>
+
 
 <!ENTRADAS-BLOG2>
 <!ENTRADAS-BLOG2-IMAGEN>
 <div class="row entrada-blog" id="entrada2">
-<div class="column titulo-entrada-blog"><p>PANCUTRAS</p></div>
+<div class="column titulo-entrada-blog"><h3>PANCUTRAS</h3><h6><em>Septiembre 2017</em></h6></div>
 <div class="column imagen-entrada-blog">
-<img src="imagenes/pancutra.jpg" alt="imagen plato de pancutras">
+<img class="imagen-entrada-blog thumbnail" src="imagenes/pancutra.jpg" alt="imagen plato de pancutras">
 </div>
 </div>
 <!ENTRADAS-BLOG2-TEXTO>
@@ -146,28 +196,70 @@
 
 <!ENTRADAS-BLOG2-COMENTARIOS>
 <div class="row comentarios">
-	<div class="row comentario-entrada">
-		<div class="column large-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
-		<div class="column large-11"><p>Si yo lo comí en Argentina también, pero se hace distinto</p></div>
+<div class="column">
+	<div class="row "><div class="column"><p>Comentarios</p></div></div>
+	
+	<div class="row ">
+		<div class="column large-11">
+		<fieldset>    			
+    				<input type="text" placeholder="Escribe un comentario publico" />
+		</fieldset>
+		</div>
+		<div class="column large-1"><a href="#" class="primary tiny button" >Enviar</a></div>
 	</div>	
+	
 	<div class="row comentario-historico">
-		<div class="column large-1 large-offset-1"><img src="iconos/004-chico.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>Mi abuela hacía, ahora ya casi no la como</p></div>
+		<div class="column large-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Lorenzo</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>		
+		<div class="row">
+		<div class="column"><p>Si yo lo comí en Argentina también, pero se hace distinto</p></div>		
+		</div>
+		</div>
+	</div>
+	
+	<div class="row comentario-historico">
+		<div class="column large-1"><img class="imagen-usuario" src= "iconos/004-chico.png" alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Robertito</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>
+		<div class="row">
+		<div class="column"><p>Mi abuela hacía, ahora ya casi no la como</p></div>		
+		</div>
+		
+		</div>
 	</div>
 	<div class="row comentario-historico">
-		<div class="column large-1 large-offset-1"><img src="iconos/003-chica.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>Con un buen aliño queda muy sabrosas y es muy fácil de hacer</p></div>
-	</div>
-	<div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div>
+		<div class="column large-1"><img  class="imagen-usuario" src= "iconos/003-chica.png"  alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Andrea</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>
+		<div class="row">
+		<div class="column">	<p>Con un buen aliño queda muy sabrosas y es muy fácil de hacer</p>		</div>		
+		</div>
+		
+		</div>
+	</div>	
+	
+	<div class="row"><div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div></div>
+	
+</div>
 </div>
 
 
 <!ENTRADAS-BLOG3>
 <!ENTRADAS-BLOG3-IMAGEN>
 <div class="row entrada-blog" id="entrada3">
-<div class="column titulo-entrada-blog"><p>PIÑONES</p></div>
+<div class="column titulo-entrada-blog"><h3>PIÑONES</h3><h6><em>Agosto 2017</em></h6></div>
 <div class="column imagen-entrada-blog">
-<img src="imagenes/piñones.jpg" alt="imagen piñones">
+<img class="imagen-entrada-blog thumbnail" src="imagenes/piñones.jpg" alt="imagen piñones">
 </div>
 </div>
 <!ENTRADAS-BLOG3-TEXTO>
@@ -181,27 +273,70 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
 
 <!ENTRADAS-BLOG3-COMENTARIOS>
 <div class="row comentarios">
-	<div class="row comentario-entrada">
-		<div class="column large-1"><img src="iconos/001-chica-1.png" alt="imagen usuario"></div>
-		<div class="column large-11"><p>No sabía que era el fruto de los Pehuenche</p></div>
+<div class="column">
+	<div class="row "><div class="column"><p>Comentarios</p></div></div>
+	
+	<div class="row ">
+		<div class="column large-11">
+		<fieldset>    			
+    				<input type="text" placeholder="Escribe un comentario publico" />
+		</fieldset>
+		</div>
+		<div class="column large-1"><a href="#" class="primary tiny button" >Enviar</a></div>
 	</div>	
+	
 	<div class="row comentario-historico">
-		<div class="column large-1 large-offset-1"><img src="iconos/003-chica.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>Aqui se come bastante, se deben cocer por harto tiempo</p></div>
+		<div class="column large-1"><img src="iconos/001-chica-1.png"
+ alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Andrea</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>		
+		<div class="row">
+		<div class="column"><p>No sabía que era el fruto de los Pehuenche</p></div>		
+		</div>
+		</div>
+	</div>
+	
+	<div class="row comentario-historico"> 
+		<div class="column large-1"><img class="imagen-usuario" src="iconos/003-chica.png" alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Luz</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>
+		<div class="row">
+		<div class="column"><p>Aqui se come bastante, se deben cocer por harto tiempo</p></div>		
+		</div>
+		
+		</div>
 	</div>
 	<div class="row comentario-historico">
-		<div class="column large-1 large-offset-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>A ver si como de estos cuando esté en el Sur</p></div>
-	</div>
-	<div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div>
+		<div class="column large-1"><img  class="imagen-usuario" src="iconos/002-hombre.png"  alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Lorenzo</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>
+		<div class="row">
+		<div class="column">	<p>A ver si como de estos cuando esté en el Sur</p>		</div>		
+		</div>
+		
+		</div>
+	</div>	
+	
+	<div class="row"><div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div></div>
+	
+</div>
 </div>
 
 <!ENTRADAS-BLOG4>
 <!ENTRADAS-BLOG4-IMAGEN>
 <div class="row entrada-blog" id="entrada4">
-<div class="column titulo-entrada-blog"><p>EL CHARQUICAN</p></div>
+<div class="column titulo-entrada-blog"><h3>EL CHARQUICAN</h3><h6><em>Mayo 2017</em></h6></div>
 <div class="column imagen-entrada-blog">
-<img src="imagenes/charquican.jpg" alt="imagen plato de charquican">
+<img class="imagen-entrada-blog thumbnail" src="imagenes/charquican.jpg" alt="imagen plato de charquican">
 </div>
 </div>
 <!ENTRADAS-BLOG4-TEXTO>
@@ -213,20 +348,66 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
 
 <!ENTRADAS-BLOG4-COMENTARIOS>
 <div class="row comentarios">
-	<div class="row comentario-entrada">
-		<div class="column large-1"><img src="iconos/001-chica-1.png" alt="imagen usuario"></div>
-		<div class="column large-11"><p>Rico, nunca lo había probado</p></div>
+<div class="column">
+	<div class="row "><div class="column"><p>Comentarios</p></div></div>
+	
+	<div class="row ">
+		<div class="column large-11">
+		<fieldset>    			
+    				<input type="text" placeholder="Escribe un comentario publico" />
+		</fieldset>
+		</div>
+		<div class="column large-1"><a href="#" class="primary tiny button" >Enviar</a></div>
 	</div>	
+	
 	<div class="row comentario-historico">
-		<div class="column large-1 large-offset-1"><img src="iconos/004-chico.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>que lindos recuerdos</p></div>
+		<div class="column large-1"><img src="iconos/001-chica-1.png"  alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Andrea</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>		
+		<div class="row">
+		<div class="column"><p>Rico, nunca lo había probado</p></div>		
+		</div>
+		</div>
+	</div>
+	
+	<div class="row comentario-historico"> 
+		<div class="column large-1"><img class="imagen-usuario" src="iconos/004-chico.png" alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Robertito</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>
+		<div class="row">
+		<div class="column"><p>que lindos recuerdos</p></div>		
+		</div>
+		
+		</div>
 	</div>
 	<div class="row comentario-historico">
-		<div class="column large-1 large-offset-1"><img src="iconos/002-hombre.png" alt="imagen usuario"></div>
-		<div class="column large-10"><p>Me parece bien que se rescate nuestro patrimonio culinario</p></div>
-	</div>
-	<div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div>
+		<div class="column large-1"><img  class="imagen-usuario" src="iconos/002-hombre.png"   alt="imagen usuario"></div>
+		<div class="column large-11">
+		<div class="row">
+		<div class="column large-1"><p class="username">Lorenzo</p></div>
+		<div class="column large-11"><p class="fecha">10-09-2017</p></div>		
+		</div>
+		<div class="row">
+		<div class="column">	<p>Me parece bien que se rescate nuestro patrimonio culinario</p>		</div>		
+		</div>
+		
+		</div>
+	</div>	
+	
+	<div class="row"><div class="column large-1 large-offset-11"><p><a href="#tope" >Arriba</a></p></div></div>
+	
 </div>
+</div>
+
+
+
+
 
 </div>
 </div>
@@ -237,5 +418,6 @@ Los pehuenche, 'gente del pehuen', consumían los frutos del araucaria, los piñ
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+
   </body>
 </html>
